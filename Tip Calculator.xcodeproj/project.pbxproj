@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F07C639720274681004BA8F1 /* paulSolt2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paulSolt2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07C639720274681004BA8F1 /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07C639A20274681004BA8F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F07C639C20274681004BA8F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F07C639F20274681004BA8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F07C63A120274681004BA8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F07C63A420274681004BA8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F07C63A620274681004BA8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F07C63AB20274682004BA8F1 /* paulSolt2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paulSolt2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07C63AB20274682004BA8F1 /* Tip CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07C63AF20274682004BA8F1 /* paulSolt2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paulSolt2Tests.swift; sourceTree = "<group>"; };
 		F07C63B120274682004BA8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F07C63B620274682004BA8F1 /* paulSolt2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paulSolt2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07C63B620274682004BA8F1 /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07C63BA20274682004BA8F1 /* paulSolt2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paulSolt2UITests.swift; sourceTree = "<group>"; };
 		F07C63BC20274682004BA8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		F07C639820274681004BA8F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F07C639720274681004BA8F1 /* paulSolt2.app */,
-				F07C63AB20274682004BA8F1 /* paulSolt2Tests.xctest */,
-				F07C63B620274682004BA8F1 /* paulSolt2UITests.xctest */,
+				F07C639720274681004BA8F1 /* Tip Calculator.app */,
+				F07C63AB20274682004BA8F1 /* Tip CalculatorTests.xctest */,
+				F07C63B620274682004BA8F1 /* Tip CalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F07C639620274681004BA8F1 /* paulSolt2 */ = {
+		F07C639620274681004BA8F1 /* Tip Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F07C63BF20274682004BA8F1 /* Build configuration list for PBXNativeTarget "paulSolt2" */;
+			buildConfigurationList = F07C63BF20274682004BA8F1 /* Build configuration list for PBXNativeTarget "Tip Calculator" */;
 			buildPhases = (
 				F07C639320274681004BA8F1 /* Sources */,
 				F07C639420274681004BA8F1 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = paulSolt2;
+			name = "Tip Calculator";
 			productName = paulSolt2;
-			productReference = F07C639720274681004BA8F1 /* paulSolt2.app */;
+			productReference = F07C639720274681004BA8F1 /* Tip Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F07C63AA20274682004BA8F1 /* paulSolt2Tests */ = {
+		F07C63AA20274682004BA8F1 /* Tip CalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F07C63C220274682004BA8F1 /* Build configuration list for PBXNativeTarget "paulSolt2Tests" */;
+			buildConfigurationList = F07C63C220274682004BA8F1 /* Build configuration list for PBXNativeTarget "Tip CalculatorTests" */;
 			buildPhases = (
 				F07C63A720274682004BA8F1 /* Sources */,
 				F07C63A820274682004BA8F1 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				F07C63AD20274682004BA8F1 /* PBXTargetDependency */,
 			);
-			name = paulSolt2Tests;
+			name = "Tip CalculatorTests";
 			productName = paulSolt2Tests;
-			productReference = F07C63AB20274682004BA8F1 /* paulSolt2Tests.xctest */;
+			productReference = F07C63AB20274682004BA8F1 /* Tip CalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F07C63B520274682004BA8F1 /* paulSolt2UITests */ = {
+		F07C63B520274682004BA8F1 /* Tip CalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F07C63C520274682004BA8F1 /* Build configuration list for PBXNativeTarget "paulSolt2UITests" */;
+			buildConfigurationList = F07C63C520274682004BA8F1 /* Build configuration list for PBXNativeTarget "Tip CalculatorUITests" */;
 			buildPhases = (
 				F07C63B220274682004BA8F1 /* Sources */,
 				F07C63B320274682004BA8F1 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				F07C63B820274682004BA8F1 /* PBXTargetDependency */,
 			);
-			name = paulSolt2UITests;
+			name = "Tip CalculatorUITests";
 			productName = paulSolt2UITests;
-			productReference = F07C63B620274682004BA8F1 /* paulSolt2UITests.xctest */;
+			productReference = F07C63B620274682004BA8F1 /* Tip CalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F07C639220274681004BA8F1 /* Build configuration list for PBXProject "paulSolt2" */;
+			buildConfigurationList = F07C639220274681004BA8F1 /* Build configuration list for PBXProject "Tip Calculator" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F07C639620274681004BA8F1 /* paulSolt2 */,
-				F07C63AA20274682004BA8F1 /* paulSolt2Tests */,
-				F07C63B520274682004BA8F1 /* paulSolt2UITests */,
+				F07C639620274681004BA8F1 /* Tip Calculator */,
+				F07C63AA20274682004BA8F1 /* Tip CalculatorTests */,
+				F07C63B520274682004BA8F1 /* Tip CalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		F07C63AD20274682004BA8F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F07C639620274681004BA8F1 /* paulSolt2 */;
+			target = F07C639620274681004BA8F1 /* Tip Calculator */;
 			targetProxy = F07C63AC20274682004BA8F1 /* PBXContainerItemProxy */;
 		};
 		F07C63B820274682004BA8F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F07C639620274681004BA8F1 /* paulSolt2 */;
+			target = F07C639620274681004BA8F1 /* Tip Calculator */;
 			targetProxy = F07C63B720274682004BA8F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -432,7 +432,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Terminus-Tech.paulSolt2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -446,7 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Terminus-Tech.paulSolt2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -462,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paulSolt2.app/paulSolt2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip Calculator.app/Tip Calculator";
 			};
 			name = Debug;
 		};
@@ -478,7 +478,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paulSolt2.app/paulSolt2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip Calculator.app/Tip Calculator";
 			};
 			name = Release;
 		};
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F07C639220274681004BA8F1 /* Build configuration list for PBXProject "paulSolt2" */ = {
+		F07C639220274681004BA8F1 /* Build configuration list for PBXProject "Tip Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F07C63BD20274682004BA8F1 /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F07C63BF20274682004BA8F1 /* Build configuration list for PBXNativeTarget "paulSolt2" */ = {
+		F07C63BF20274682004BA8F1 /* Build configuration list for PBXNativeTarget "Tip Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F07C63C020274682004BA8F1 /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F07C63C220274682004BA8F1 /* Build configuration list for PBXNativeTarget "paulSolt2Tests" */ = {
+		F07C63C220274682004BA8F1 /* Build configuration list for PBXNativeTarget "Tip CalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F07C63C320274682004BA8F1 /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F07C63C520274682004BA8F1 /* Build configuration list for PBXNativeTarget "paulSolt2UITests" */ = {
+		F07C63C520274682004BA8F1 /* Build configuration list for PBXNativeTarget "Tip CalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F07C63C620274682004BA8F1 /* Debug */,
